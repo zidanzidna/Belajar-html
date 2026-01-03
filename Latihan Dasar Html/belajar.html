@@ -1,22 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Belajar HTML - tipis-tipis</title>
         <link rel="icon" href="cihuy.png"> <!--ini adalah favicon-->
         <meta name="author" content="Zidan Zidna"> <!-- ini agar web dapat dicari orang melalui keywordnya-->
     </head>
     <body>
-        <h1 style="color: brown; text-align: center"><b>HELLO WORLD</b></h1> 
-        <p style="background-color:  darkred;">Halo Cuy</p>
-        <p style="background-color:  darkblue">
-            <i>Selamat Datang</i> <!--ini untuk huruf miring-->
-            <br> <!--void-->
-            Selamat Tinggal
-        </p>
-        <hr>
+        <h1 style="background-color:coral; text-align: center"><b style="font-size: 5vw;">SELAMAT DATANG</b><hr></h1>
+        
         <h3>
             <strong>
-                <span style="color:blue;">VISCA</span>
-                <span style="color: red;">BARCA</span>
+                <span style="color:blue; font: size 2vw;">VISCA</span>
+                <span style="color: red; font: size 2vw;">BARCA</span>
             </strong>
         </h3>
         <p>
@@ -26,39 +23,97 @@
                 <li>Neymar : <a href="https://www.instagram.com/neymarjr/" target="_blank">Neymar's IG</a></li>
                 <li>Dani Alves : <a href="https://www.instagram.com/danialves/" target="_blank">Dani Alves's IG</a></li>
             </ul>
+            <p>Alternatif link
             <ol type="I">
                 <li><a href="file:///F:/Zidan/Project%20github/Latihan Dasar Html/cihuy.html">zihuy</a></li>
                 <li><a href="file:///F:/Zidan/Project%20github/Latihan Dasar Html/ahay.html">ahay</a></li>
                 <li><a href="file:///F:/Zidan/Project%20github/Latihan Dasar Html/video.html">The Script</a></li>
                 <li><a href="file:///F:/Zidan/Project%20github/Latihan Dasar Html/audio.html">He knows</a></li>
+                <li><a href="file:///F:/Zidan/Project%20github/Latihan Dasar Html/inline frame.html">Inline Frame</a></li>
             </ol>
+            </p>
             <ol type="1">
                 <li><a href="#judul1">Clubs name</a></li>
                 <li><a href="#judul2">Countries name</a></li>
             </ol>
             <h2 id="judul1"> Clubs name</h2>
-            <p>Barcelona</p>
-            <p>Real Madrid</p>
-            <p>Atletico Madrid</p>
-            <p>Sevilla</p>
-            <p>Girona</p>
-            <p>Las Palmas</p>
-            <p>Celta Vigo</p>
-            <p>Athletic Bilabo</p>
-            <p>Valencia</p>
-            <p>Real Sociedad</p>
+            <table style="border: 1px solid black">
+                <colgroup>
+                    <col span="2" style="background-color:cadetblue" >
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Clubs</th>
+                        <th>Players</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Barcelona</td>
+                        <td>Pedri</td>
+                    </tr>
+                    <tr>
+                        <td>Real Madrid</td>
+                        <td>K.Mbappe</td>
+                    </tr>
+                    <tr>
+                        <td>Atletico Madrid</td>
+                        <td>J.ALvarez</td>
+                    </tr>
+                    <tr>
+                        <td>Sevilla</td>
+                        <td>A.Sanchez</td>
+                    </tr>    
+                    <tr>
+                        <td>Girona</td>
+                        <td>A.Ruiz</td>
+                    </tr>
+                    <tr>
+                        <td>Las Palmas</td>
+                        <td>I.Gonzales</td>
+                    </tr>    
+                    <tr>
+                        <td>Celta Vigo</td>
+                        <td>I.Aspas</td>
+                    </tr>
+                    <tr>
+                        <td>Athletic Bilbao</td>
+                        <td>I.WIlliams</td>
+                    </tr>
+                    <tr>
+                        <td>Valencia</td>
+                        <td>A.Danjuma</td>
+                    </tr>
+                    <tr>
+                        <td>Real Sociedad</td>
+                        <td>T.Kubo</td>
+                    </tr>
+                <tbody>
+            </table>
 
             <h2 id="judul2">Countries name</h2>
-            <p>Indonesia</p>
-            <p>Germany</p>
-            <p>Argentina</p>
-            <p>England</p>
-            <p>Japan</p>
-            <p>United States</p>
-            <p>Switzerland</p>
-            <p>Sweden</p>
-            <p>Russia</p>
-            <p>China</p>
-        </p>
+            <table style="border: 2px solid black;">
+                <colgroup>
+                    <col style="background-color: crimson;"
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Indonesia</td></tr>
+                    <tr><td>Germany</td></tr>
+                    <tr><td>Argentina</td></tr>
+                    <tr><td>England</td></tr>
+                    <tr><td>Japan</td></tr>
+                    <tr><td>United States</td></tr>
+                    <tr><td>Switzerland</td></tr>
+                    <tr><td>Sweden</td></tr>
+                    <tr><td>Russia</td></tr>
+                    <tr><td>China</td></tr>
+                    </tr>
+                </tbody>
+            </table>
     </body>
 </html>
